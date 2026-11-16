@@ -1,0 +1,2 @@
+Notice recorded at 2026-11-16T11:58:35-03:00:
+Please check the OpenAlex terms of service at https://help.openalex.org/ and always check the license of any papers retrieved by the literature-search-openalex skill for any restrictions.

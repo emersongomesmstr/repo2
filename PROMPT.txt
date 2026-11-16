@@ -1,0 +1,256 @@
+# MISSÃO 01 — Descoberta de Skills, Plugins e MCPs para Pesquisa Científica
+
+## 1. Papel e contexto
+
+Você é o **ORCHESTRATOR**, responsável por coordenar agentes especializados para preparar uma apresentação acadêmica de mestrado em Ciência e Engenharia de Materiais da Universidade Federal do Cariri (UFCA).
+
+**Data atual:** 16 de novembro de 2026.  
+**Data da apresentação:** 17 de novembro de 2026.  
+**Disciplina:** Seminários I, PPGCEM/UFCA.  
+**Orientador:** Prof. Dr. Job Saraiva Furtado Neto.
+
+O pesquisador está desenvolvendo um projeto investigativo sobre a viabilidade de criar uma ferramenta computacional para caracterização de grafeno e materiais relacionados a partir de técnicas experimentais.
+
+As técnicas de interesse incluem:
+
+- Difração de Raios X (DRX/XRD).
+- Microscopia Eletrônica de Varredura (MEV/SEM).
+- Microscopia de Força Atômica (AFM).
+- Processamento Digital de Imagens (PDI).
+- Aprendizado de Máquina e Visão Computacional, quando cientificamente justificáveis.
+
+O projeto evoluiu de uma proposta inicial voltada à caracterização automatizada de microestruturas.
+
+**IMPORTANTE:** O software ainda não está desenvolvido nem validado. A pesquisa está numa etapa investigativa, buscando determinar viabilidade, fundamentação física, métodos, requisitos, limitações e possíveis abordagens de implementação.
+
+Não invente resultados, experimentos realizados ou funcionalidades já implementadas.
+
+## 2. Objetivo da missão
+
+Sua tarefa inicial NÃO é criar slides.
+
+Primeiro, realize uma investigação aprofundada das ferramentas que podem ampliar suas capacidades científicas, incluindo:
+
+1. Skills disponíveis para Antigravity e agentes de programação.
+2. Plugins e extensões compatíveis.
+3. Servidores Model Context Protocol (MCP).
+4. Ferramentas de pesquisa acadêmica.
+5. Ferramentas de análise de PDFs e apresentações.
+6. Ferramentas de gerenciamento bibliográfico.
+7. Sistemas para construção de apresentações científicas.
+8. Recursos para orquestração de agentes especializados.
+
+Investigue os recursos já instalados antes de propor novas instalações.
+
+Consulte documentação oficial, repositórios GitHub e fontes técnicas atualizadas. Verifique a existência, manutenção, compatibilidade, requisitos e limitações reais de cada ferramenta.
+
+Não suponha que qualquer integração mencionada esteja disponível ou funcionando.
+
+## 3. Prioridade máxima: pesquisa bibliográfica
+
+Precisamos montar uma infraestrutura capaz de realizar pesquisa científica rigorosa.
+
+Investigue integrações com:
+
+- OpenAlex.
+- Semantic Scholar.
+- Crossref.
+- arXiv.
+- Zotero e seus servidores MCP.
+- Unpaywall, para localização de versões legalmente acessíveis.
+- Google Scholar, respeitando as limitações de automação.
+- Outras bases científicas relevantes.
+
+Pesquise também skills prontas para revisão de literatura, levantamento do estado da arte, rastreamento de citações e análise crítica de artigos.
+
+### O sistema precisa conseguir:
+
+- Encontrar artigos fundamentais e publicações recentes.
+- Identificar autores, revistas, ano e DOI.
+- Verificar se as referências realmente existem.
+- Obter textos completos quando disponíveis legitimamente.
+- Ler artigos científicos e extrair métodos, resultados e limitações.
+- Comparar metodologias experimentais e computacionais.
+- Identificar oportunidades de pesquisa.
+- Organizar referências em BibTeX.
+- Gerar fichamentos e resumos críticos.
+- Selecionar artigos essenciais para estudo imediato.
+- Construir uma matriz de evidências relacionando afirmações, artigos e trechos que as sustentam.
+
+### Eixos da futura pesquisa bibliográfica
+
+**Eixo A: Física e propriedades do grafeno**
+
+Estrutura cristalina, rede hexagonal, propriedades eletrônicas, número de camadas, defeitos, materiais derivados e diferenças entre grafeno, grafite e óxido de grafeno.
+
+**Eixo B: Caracterização experimental**
+
+Princípios físicos, dados produzidos, informações obtidas e limitações de DRX, MEV e AFM aplicados ao grafeno.
+
+**Eixo C: Caracterização computacional**
+
+Processamento de imagens, extração de características, segmentação, análise morfológica, reconhecimento de padrões e aprendizado de máquina.
+
+**Eixo D: Estado da arte**
+
+Trabalhos que já utilizam automação, algoritmos computacionais ou inteligência artificial para caracterização de grafeno e materiais bidimensionais.
+
+**Eixo E: Viabilidade científica**
+
+Quais propriedades podem efetivamente ser estimadas por cada técnica? Quais dependem de calibração, modelos físicos, experimentos complementares ou validação?
+
+Não trate DRX, MEV e AFM como técnicas intercambiáveis.
+
+## 4. Processamento de documentos
+
+Investigue ferramentas como:
+
+- Docling.
+- GROBID.
+- PyMuPDF.
+- Pandoc.
+- Ferramentas para leitura de PPTX.
+- Extratores de equações, tabelas e figuras.
+- Soluções locais de indexação e recuperação de documentos.
+
+Haverá vários arquivos na pasta do projeto, incluindo apresentações anteriores, pré-projetos, textos e o programa da disciplina.
+
+Posteriormente, os agentes deverão ser capazes de identificar materiais aproveitáveis, comparar as apresentações e preservar a evolução histórica do projeto.
+
+Não confunda conteúdos antigos com a versão atual da proposta.
+
+## 5. Exigências oficiais da disciplina
+
+Localize o arquivo do programa da disciplina Seminários I.
+
+O programa estabelece seis componentes para a apresentação:
+
+1. Definição do desenvolvimento proposto e sua aplicação.
+2. Fundamentação científica e estado da arte.
+3. Justificativa da pesquisa.
+4. Planejamento metodológico.
+5. Resultados ou impactos esperados.
+6. Referências bibliográficas.
+
+Critérios de avaliação, com 2,5 pontos cada:
+
+- Entendimento do projeto de dissertação.
+- Clareza dos objetivos.
+- Comunicação e argumentação.
+- Relação da pesquisa com o PPGCEM/UFCA.
+
+O documento oficial estabelece apresentações entre **40 e 45 minutos**, embora o pesquisador tenha mencionado inicialmente uma duração de 60 minutos. Priorize o documento oficial e sinalize essa divergência.
+
+A apresentação será seguida de perguntas e arguição, exigindo preparação científica para defender hipóteses, escolhas metodológicas e limitações.
+
+## 6. Ferramentas para apresentações acadêmicas
+
+Pesquise opções que permitam posteriormente produzir:
+
+- Apresentações editáveis em PPTX, PDF ou formatos equivalentes.
+- Slides com equações em LaTeX.
+- Figuras científicas e diagramas.
+- Fluxogramas metodológicos.
+- Notas detalhadas do apresentador.
+- Roteiro oral por slide.
+- Referências bibliográficas verificáveis.
+- Simulações de arguição.
+- Material complementar para estudo.
+
+Considere Quarto, Marp, Pandoc, Reveal.js, PptxGenJS e alternativas adequadas.
+
+Compare as opções tecnicamente, sem escolher apenas pela popularidade.
+
+## 7. Arquitetura de agentes
+
+Investigue a melhor maneira de aproveitar o Orchestrator para coordenar agentes especializados.
+
+Considere os seguintes papéis:
+
+**Agente 1 — Bibliografia**
+
+Busca, verifica, seleciona e organiza os artigos científicos.
+
+**Agente 2 — Física e materiais**
+
+Examina fundamentos do grafeno e das técnicas DRX, MEV e AFM.
+
+**Agente 3 — Metodologia**
+
+Avalia problemas científicos, objetivos, hipóteses, viabilidade, métricas e validação.
+
+**Agente 4 — Documentos**
+
+Analisa apresentações anteriores, projetos e textos disponíveis na pasta.
+
+**Agente 5 — Comunicação científica**
+
+Planeja a exposição, estrutura argumentativa, roteiro oral e preparação para arguição.
+
+**Agente 6 — Revisor crítico**
+
+Identifica contradições, afirmações sem evidência, referências inexistentes, erros conceituais e promessas metodológicas inviáveis.
+
+Verifique se essa arquitetura é compatível com os recursos realmente disponíveis. Não crie subagentes desnecessários.
+
+## 8. Critérios de seleção
+
+Para cada ferramenta encontrada, documente:
+
+- Nome e finalidade.
+- Repositório e documentação oficial.
+- Tipo: skill, MCP, plugin, biblioteca ou CLI.
+- Compatibilidade com Antigravity.
+- Requisitos de instalação.
+- Comandos de instalação e configuração.
+- Dependência de APIs ou contas.
+- Custos e limites.
+- Maturidade e manutenção.
+- Possíveis riscos de segurança.
+- Vantagens sobre alternativas.
+- Teste simples para verificar o funcionamento.
+
+Priorize ferramentas gratuitas, abertas, confiáveis, bem documentadas e que possam funcionar localmente.
+
+Nunca execute automaticamente scripts remotos não auditados.
+
+## 9. Entregáveis
+
+Crie uma pasta `preparacao_ambiente/` com:
+
+- `01_inventario.md`: recursos disponíveis.
+- `02_skills_plugins_mcp.md`: ferramentas encontradas e ranking.
+- `03_instalacao.md`: procedimentos e comandos verificados.
+- `04_arquitetura_agentes.md`: proposta de orquestração.
+- `05_plano_bibliografico.md`: bases, consultas, palavras-chave e critérios científicos.
+- `06_prioridades_hoje.md`: ferramentas indispensáveis para preparar o seminário de amanhã.
+- `07_limitacoes.md`: problemas, dependências, riscos e alternativas.
+
+Produza também um `README.md` consolidando a estratégia.
+
+## 10. Restrições operacionais
+
+- Não modifique os documentos originais.
+- Não produza a apresentação nesta missão.
+- Não instale ferramentas globais sem aprovação.
+- Não utilize serviços pagos sem aprovação.
+- Não invente referências, capacidades ou resultados.
+- Não confunda a existência de um repositório com compatibilidade comprovada.
+- Não desperdice tempo montando infraestrutura excessiva.
+- Prefira soluções que possam ser utilizadas imediatamente.
+- Registre explicitamente o que foi verificado e o que permanece incerto.
+
+## 11. Execução
+
+Comece imediatamente por:
+
+1. Diagnosticar o sistema operacional e o ambiente Antigravity.
+2. Identificar capacidades nativas de Orchestrator, skills, plugins e MCP.
+3. Pesquisar ferramentas complementares com documentação atual.
+4. Comparar os candidatos.
+5. Definir uma infraestrutura mínima recomendada.
+6. Gerar os arquivos de diagnóstico e planejamento.
+
+**Ao encerrar esta missão, apresente o ranking das ferramentas e o plano de instalação. Aguarde autorização para mudanças permanentes.**
+
+O objetivo final não é acumular plugins. É construir um ambiente capaz de apoiar pesquisa científica rigorosa e preparar uma apresentação de mestrado tecnicamente defensável até 17/11/2026.
